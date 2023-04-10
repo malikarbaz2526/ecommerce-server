@@ -2,10 +2,11 @@
   "name": "serverjs",
   "version": "1.0.0",
   "description": "chal bhag",
-  "main": "index.js",
+  "main": "server_post.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server_post.js"
   },
   "author": "",
   "license": "ISC",
