@@ -15,4 +15,5 @@ database.once('connected', () => {
     console.log('Database Connected'.bgGreen.white);
 })
 }
+mongoose.set("strictQuery",false)
 export default connectDB
