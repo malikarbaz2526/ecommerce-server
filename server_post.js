@@ -33,7 +33,11 @@ app.use('/api/v1/auth',router)
 app.use('/api/v1/category',categoryRoutes)
 app.use('/api/v1/product',productRoutes)
 
-
+app.get("/",(req,res)=>{
+res.status(200).json({
+ msg:"Success deploy server"
+})
+})
 
 
 var port = 5000
